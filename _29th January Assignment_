@@ -1,0 +1,423 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "736b39ba-15d9-471e-b80e-57b928b336e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Python was developed by Guido van Rossum in the late 1980s. It is a popular, high-level programming language used for web development, data science, and automation, among other things.'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no.1)who developed the python programming language\n",
+    "\"\"\" Ans. Python was developed by Guido van Rossum in the late 1980s. It is a popular, high-level programming language used for web development, data science, and automation, among other things.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "74a43dad-b576-4c44-a3b6-ba91a16b1286",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Python supports a wide range of programming paradigms, including procedural, object-oriented, and functional programming. It is a versatile language used in web development, scientific computing, data analysis, and more.'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#/Q.no.2) which type of programming does python support \n",
+    "\"\"\" Ans. Python supports a wide range of programming paradigms, including procedural, object-oriented, and functional programming. It is a versatile language used in web development, scientific computing, data analysis, and more.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "9a512063-6704-4125-b02f-2accc9acffc2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Yes, Python is a case-sensitive language when dealing with identifiers, such as variable names, function names, and class names. For example, \"myVar\" and \"myvar\" are considered two different variables in Python. It\\'s important to use the correct case when referring to identifiers in your Python code.'"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 3) Is python case sensitive  when dealing with identifiers.\n",
+    "\"\"\" Ans. Yes, Python is a case-sensitive language when dealing with identifiers, such as variable names, function names, and class names. For example, \"myVar\" and \"myvar\" are considered two different variables in Python. It's important to use the correct case when referring to identifiers in your Python code.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "fce072e9-d0ea-4256-adf3-e909bc0fa05a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. The correct extension for a Python file is \".py\". When you save a Python script, you should give it a file name that ends with \".py\", such as \"my_script.py\". This makes it clear to the operating system and any text editors or IDEs that the file contains Python code. When you run a Python program from the command line.'"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 4) what is the correct extension  of the python file\n",
+    "\"\"\" Ans. The correct extension for a Python file is \".py\". When you save a Python script, you should give it a file name that ends with \".py\", such as \"my_script.py\". This makes it clear to the operating system and any text editors or IDEs that the file contains Python code. When you run a Python program from the command line.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "18bb48f7-d23f-4f30-a238-07215123d19b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Python code is generally interpreted rather than compiled. When you run a Python script, the code is processed by the Python interpreter, which reads and executes each line of code in sequence. This is different from compiled languages like C or Java, where the code is first compiled into machine code before it can be run.\\n\\nHowever, Python code can also be compiled to bytecode, which is a lower-level representation of the code that can be executed more efficiently. The compiled bytecode can be saved in \".pyc\" files, which are then used by the interpreter to execute the code more quickly the next time it is run. So while Python code is generally interpreted, it can also be compiled to bytecode for improved performance.'"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no. 5) Is python  code compiled  or interpreted\n",
+    "\"\"\" Ans. Python code is generally interpreted rather than compiled. When you run a Python script, the code is processed by the Python interpreter, which reads and executes each line of code in sequence. This is different from compiled languages like C or Java, where the code is first compiled into machine code before it can be run.\n",
+    "\n",
+    "However, Python code can also be compiled to bytecode, which is a lower-level representation of the code that can be executed more efficiently. The compiled bytecode can be saved in \".pyc\" files, which are then used by the interpreter to execute the code more quickly the next time it is run. So while Python code is generally interpreted, it can also be compiled to bytecode for improved performance.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "6b8b2475-d3eb-4b09-b5ec-d0d6d6643300",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. In Python, blocks of code are defined using indentation rather than braces or keywords. Some common blocks of code used in Python include:\\n\\nFunction blocks: Blocks of code defining a function using the \"def\" keyword and indented code block.\\n\\nControl blocks: Blocks of code used for control flow, such as \"if\", \"else\", and \"elif\" statements, as well as \"for\" and \"while\" loops.\\n\\nClass blocks: Blocks of code defining a class using the \"class\" keyword and indented code block.\\n\\nWith blocks: Blocks of code used for context management using the \"with\" keyword and indented code block.\\n\\nException blocks: Blocks of code defining how to handle exceptions using the \"try\", \"except\", and \"finally\" keywords and indented code blocks.\\n\\nThese blocks of code are used to structure and organize code in a clear and readable way, making it easier to understand and maintain.'"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no.6) name a few blocks of code used to define in the python language\n",
+    "\"\"\" Ans. In Python, blocks of code are defined using indentation rather than braces or keywords. Some common blocks of code used in Python include:\n",
+    "\n",
+    "Function blocks: Blocks of code defining a function using the \"def\" keyword and indented code block.\n",
+    "\n",
+    "Control blocks: Blocks of code used for control flow, such as \"if\", \"else\", and \"elif\" statements, as well as \"for\" and \"while\" loops.\n",
+    "\n",
+    "Class blocks: Blocks of code defining a class using the \"class\" keyword and indented code block.\n",
+    "\n",
+    "With blocks: Blocks of code used for context management using the \"with\" keyword and indented code block.\n",
+    "\n",
+    "Exception blocks: Blocks of code defining how to handle exceptions using the \"try\", \"except\", and \"finally\" keywords and indented code blocks.\n",
+    "\n",
+    "These blocks of code are used to structure and organize code in a clear and readable way, making it easier to understand and maintain.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "d597dbec-345b-4197-b87b-c56ffea7bb83",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. In Python, the character used to give a single-line comment is the hash symbol (#). When you place a hash symbol in front of a line of code, Python will ignore that line and treat it as a comment.'"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no7) State a character used to give single line comments in python\n",
+    "\"\"\" Ans. In Python, the character used to give a single-line comment is the hash symbol (#). When you place a hash symbol in front of a line of code, Python will ignore that line and treat it as a comment.\"\"\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "f26204fd-65b4-4868-9320-bbc338f295c1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. There are several functions you can use in Python to find out which version you are currently using. Here are three commonly used functions:\\n\\nsys.version: This function returns a string containing the version number of the current Python interpreter.\\n\\nplatform.python_version(): This function returns a string containing the version number of the Python interpreter, as well as additional platform-specific information.\\n\\nplatform.python_implementation(): This function returns a string containing the name of the current Python implementation, such as \"CPython\" or \"Jython\".'"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no8) mention functions which can help us to find the version of python that we are  currently working on\n",
+    "\"\"\" Ans. There are several functions you can use in Python to find out which version you are currently using. Here are three commonly used functions:\n",
+    "\n",
+    "sys.version: This function returns a string containing the version number of the current Python interpreter.\n",
+    "\n",
+    "platform.python_version(): This function returns a string containing the version number of the Python interpreter, as well as additional platform-specific information.\n",
+    "\n",
+    "platform.python_implementation(): This function returns a string containing the name of the current Python implementation, such as \"CPython\" or \"Jython\".\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "fac825e3-a0d2-4c0b-b237-bcd018497762",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Python supports the creation of anonymous functions at runtime using a construct called \"lambda\" functions. Lambda functions are small, one-line functions that can be defined and called in the same line of code. They are also known as anonymous or inline functions because they do not have a name and are defined on the fly.\\n\\nLambda functions are defined using the \"lambda\" keyword followed by the function parameters and a colon, then the function body. For example, here is a lambda function that adds two numbers:\\ncsharp and scss'"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no9) python supports the creation of  anonymous function at runtime, using a construct called\n",
+    "\"\"\" Ans. Python supports the creation of anonymous functions at runtime using a construct called \"lambda\" functions. Lambda functions are small, one-line functions that can be defined and called in the same line of code. They are also known as anonymous or inline functions because they do not have a name and are defined on the fly.\n",
+    "\n",
+    "Lambda functions are defined using the \"lambda\" keyword followed by the function parameters and a colon, then the function body. For example, here is a lambda function that adds two numbers:\n",
+    "csharp and scss\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "a9d7b57a-edbd-4493-9c47-76f9742a9d7c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. PIP stands for \"Pip Installs Packages\" or \"Pip Installs Python\". It is a package manager for Python, used to install, upgrade, and manage packages and libraries written in Python.'"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 10) what does pip stands for python\n",
+    "\"\"\" Ans. PIP stands for \"Pip Installs Packages\" or \"Pip Installs Python\". It is a package manager for Python, used to install, upgrade, and manage packages and libraries written in Python.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "9ecb0638-53d7-4329-99b3-8bb428d5dd9f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Python has many built-in functions that are available for use without the need for importing any external modules. Some of the most commonly used built-in functions in Python include:\\n\\nprint() - used to print output to the console.\\ninput() - used to get input from the user.\\nlen() - used to get the length of a string, list, or other sequence.\\nrange() - used to generate a sequence of numbers.\\ntype() - used to get the data type of a variable or value.\\nint() - used to convert a value to an integer.\\nfloat() - used to convert a value to a floating-point number.\\nstr() - used to convert a value to a string.\\nlist() - used to convert a value to a list.\\ndict() - used to create a dictionary.\\nThese built-in functions are just a few examples of the many functions that are available in Python. They are designed to be simple and efficient, and are used to perform a wide variety of tasks in Python programming.'"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 11) mention a few built-in  function in python \n",
+    "\"\"\" Ans. Python has many built-in functions that are available for use without the need for importing any external modules. Some of the most commonly used built-in functions in Python include:\n",
+    "\n",
+    "print() - used to print output to the console.\n",
+    "input() - used to get input from the user.\n",
+    "len() - used to get the length of a string, list, or other sequence.\n",
+    "range() - used to generate a sequence of numbers.\n",
+    "type() - used to get the data type of a variable or value.\n",
+    "int() - used to convert a value to an integer.\n",
+    "float() - used to convert a value to a floating-point number.\n",
+    "str() - used to convert a value to a string.\n",
+    "list() - used to convert a value to a list.\n",
+    "dict() - used to create a dictionary.\n",
+    "These built-in functions are just a few examples of the many functions that are available in Python. They are designed to be simple and efficient, and are used to perform a wide variety of tasks in Python programming.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "6a547d47-1517-45d9-bbd7-f70ca5324749",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\" Ans.In Python, the maximum length of an identifier is not explicitly defined. However, there are practical limits based on the amount of memory available on the system. The Python language specification recommends that identifiers should be reasonably short and not exceed 79 characters in length, to promote readability and maintainability of code.\\n\\nIt's worth noting that while there is no explicit maximum length for identifiers, it is still important to follow best practices when naming variables, functions, and other elements of your Python code. This includes using descriptive names that convey the purpose of the element, following a consistent naming convention, and avoiding reserved keywords and built-in function names.\""
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no12)  what is the maximum  possible length of an identifier in python\n",
+    "\"\"\" Ans.In Python, the maximum length of an identifier is not explicitly defined. However, there are practical limits based on the amount of memory available on the system. The Python language specification recommends that identifiers should be reasonably short and not exceed 79 characters in length, to promote readability and maintainability of code.\n",
+    "\n",
+    "It's worth noting that while there is no explicit maximum length for identifiers, it is still important to follow best practices when naming variables, functions, and other elements of your Python code. This includes using descriptive names that convey the purpose of the element, following a consistent naming convention, and avoiding reserved keywords and built-in function names.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "b70ba41b-d289-4b57-b011-3405a0e106cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Python has several benefits, including its simplicity, readability, and ease of use. It has a large community of developers, a vast selection of libraries and frameworks, and can be used for a wide range of applications, from web development to scientific computing and data analysis.'"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 13)  what are the benefits of using python\n",
+    "\"\"\" Ans. Python has several benefits, including its simplicity, readability, and ease of use. It has a large community of developers, a vast selection of libraries and frameworks, and can be used for a wide range of applications, from web development to scientific computing and data analysis.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "14c8926b-336c-40a3-bff2-c8e9c3bab4ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. In Python, memory management is handled automatically using a technique called \"garbage collection\". The Python interpreter keeps track of all objects created during runtime and automatically frees up memory that is no longer needed, which makes memory management in Python easier and less error-prone than in other languages.'"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 14)  how is memory managed in python\n",
+    "\"\"\" Ans. In Python, memory management is handled automatically using a technique called \"garbage collection\". The Python interpreter keeps track of all objects created during runtime and automatically frees up memory that is no longer needed, which makes memory management in Python easier and less error-prone than in other languages.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "75e4dea6-512e-4f2a-8a11-3073287dcb08",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. \\nTo install Python on Windows, download the latest version from the official website and run the installer. During the installation process, make sure to select the option to add Python to the PATH variable, which allows you to run Python commands from the command prompt. Once installed, open the command prompt and type \"python\" to start the Python interpreter.'"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q.no 15) how to install python in on windows and set path variable \n",
+    "\"\"\" Ans. \n",
+    "To install Python on Windows, download the latest version from the official website and run the installer. During the installation process, make sure to select the option to add Python to the PATH variable, which allows you to run Python commands from the command prompt. Once installed, open the command prompt and type \"python\" to start the Python interpreter.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "90634a64-584e-4ab1-866f-23551b8d2176",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Ans. Yes, indentation is required in Python. It is used to indicate the structure of the code and to define code blocks.'"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Qno.16 Is indentation required in python\n",
+    "\"\"\" Ans. Yes, indentation is required in Python. It is used to indicate the structure of the code and to define code blocks.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7f35bf83-34ec-4f15-8616-3698d6c920db",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
